@@ -1,0 +1,14 @@
+   String get alert8Char {
+    return Intl.message("Enter at least 8 characters", name: 'alert8Char');
+  }
+  
+
+   String get alertStrongPass {
+    return Intl.message("Good Password", name: 'alertStrongPass');
+  }
+  
+
+   String get bothPswdNotMatch {
+    return Intl.message("Password and confirmation do not match.", name: 'bothPswdNotMatch');
+  }
+  
