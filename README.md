@@ -1,4 +1,16 @@
-A sample command-line application.
+String converter 
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+command line app that converts android XML Strings file to Dart Syntax 
+
+from this syntax 
+```
+<string name="both_pswd_not_match">Password and confirmation do not match.</string>
+```
+
+to this dart syntax
+```
+String get bothPswdNotMatch {
+    return Intl.message("Password and confirmation do not match.", name: 'bothPswdNotMatch');
+  }
+  
+```
